@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="robots" content="index/follow">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+    
+    <title>بطولة الشطرنج</title>
+    <link rel="shortcut icon" type="image/png" href="images/fav-icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    
+    <meta name="theme-color" content="#212121">
+    <meta name="msapplication-navbutton-color" content="#212121">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#212121">
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+<!--===============================
+    LOADER
+===================================-->
+
+<div class="pre-load">
+    <div class="d-flex vh-100 w-100 align-items-center justify-content-center">
+        <div>
+            <img src="./images/logo.png" alt="كش ملك">
+            <img src="images/loader.gif" alt="Loading...">
+        </div>
+    </div>
+</div>
+
+
+<!--===============================
+    FORM
+===================================-->
+
+<section class="container">
+    <div class="row align-items-center justify-content-center vh-100">
+        <div class="col-sm-10 col-md-8 col-lg-7 col-xl-6">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div><img src="./images/logo.png" class="logo" alt="كش ملك"></div>
+                <div><img src="./images/cafe.png" class="logo" alt="AR cafe"></div>
+            </div>
+            <div class="card">
+                <div class="card-body py-4">
+                    <h1 class="fs-6 text-center block-bottom">يرجي تسجيل الاسم ورقم الجوال للمشاركة في دورى بطولة الشطرنج </h1>
+
+                    <form method="post" action="loading.php" class="mt-4">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" name="name" id="nameInput" placeholder="الاسم" required>
+                            <label for="nameInput">الاسم</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" name="phone" id="phoneInput" placeholder="رقم الجوال" required>
+                            <label for="phoneInput">رقم الجوال</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100 mt-2">إرسال</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--===============================
+    SCRIPT
+===================================-->
+
+<script src="js/jquery-3.7.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
